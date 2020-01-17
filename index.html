@@ -1,13 +1,15 @@
 <!doctype HTML>
 <html>
-<script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
-<script src="https://raw.githack.com/jeromeetienne/AR.js/2.1.4/aframe/build/aframe-ar.js"></script>
-  <body style='margin : 0px; overflow: hidden;'>
-    <a-scene embedded arjs>
-      <a-marker type="pattern" url="./marker.patt">
-          <a-box position='0 0.5 0' material='color: yellow;'></a-box>
-      </a-marker>
-      <a-entity camera></a-entity>
-    </a-scene>
-  </body>
+    <head>
+        <title>Trying out AR</title>
+    </head>
+    <body style='font-family: Arial, Helvetica, sans-serif; margin-left : 30vh; margin-top:10vh; overflow: hidden;'>
+        <h1>Trying AR with different markers</h1>
+        <h3>QR code as marker:<a href="./AR.html">Try it</a></h3>
+
+        
+        <h3>QR code within marker:<a href="./marker">Try it</a></h3>
+    
+        
+    </body>
 </html>
