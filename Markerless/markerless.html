@@ -2,14 +2,16 @@
 <!doctype HTML>
 <html>
     <head>
-        <title>QR code</title>
+        <title>Tesla</title>
     </head>
 
-<script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
+<script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
 <script src="https://google-ar.github.io/three.ar.js/dist/three.ar.js"></script>
 <script src="https://rawgit.com/chenzlabs/aframe-ar/827e9db/dist/aframe-ar.min.js"></script>
 <body>
-  <a-scene ar>
+  <a-scene embedded arjs>
     <a-entity gltf-model="./scene.gltf" scale="1 1 1"></a-entity>
+    
+    <a-entity camera></a-entity>
   </a-scene>
 </body>
